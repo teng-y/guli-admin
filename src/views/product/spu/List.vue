@@ -88,7 +88,7 @@ export default {
       this.category3List = []
       this.cForm.category2Id = ''
       this.cForm.category3Id = ''
-      this. records = []
+      this.records = []
       try {
         const result = await category2(category1Id)
         this.category2List = result.data
@@ -102,7 +102,7 @@ export default {
       /* 点击二级分类删除三级分类数据和id 、以及spu列表数据*/
       this.category3List = []
       this.cForm.category3Id = ''
-      this. records = []
+      this.records = []
       try {
         const result = await category3(category2Id)
         this.category3List = result.data
