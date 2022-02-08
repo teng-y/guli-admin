@@ -128,7 +128,7 @@ export default {
       this.page = pager
       try {
         let {page,limit} = this
-        let {category3Id} = this.cForm
+        let  {category3Id} = this.cForm
 
         const result = await getList(page,limit,category3Id) 
 
